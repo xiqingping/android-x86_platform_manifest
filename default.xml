@@ -11,6 +11,9 @@
            remote="aosp"
            sync-j="1" />
 
+  <!-- from cnxiqp port repositories -->
+  <project path="device/cnxiqp" name="android-device-cnxiqp" remote="cnxiqp" revision="ics-x86" />
+
   <!-- from x86 port repositories -->
   <project path="build" name="platform/build" remote="x86" revision="ics-x86">
     <copyfile src="core/root.mk" dest="Makefile" />
